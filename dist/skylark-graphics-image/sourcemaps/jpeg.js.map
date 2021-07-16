@@ -1,0 +1,1 @@
+{"version":3,"sources":["jpeg.js"],"names":["define","skylark","attach"],"mappings":";;;;;;;AAAAA,QACE,oBACA,SAASC,GACT,aAEA,OAAOA,EAAQC,OAAO","file":"../jpeg.js","sourcesContent":["define([\r\n  \"skylark-langx-ns\"\r\n],function(skylark){\r\n  'use strict';\r\n\r\n  return skylark.attach(\"graphics.jpeg\");\r\n});"]}

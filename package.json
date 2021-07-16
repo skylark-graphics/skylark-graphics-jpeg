@@ -1,0 +1,37 @@
+{
+  "name": "skylark-graphics-image",
+  "version": "0.9.0",
+  "description": "The skylark imagex utility library",
+  "main": "-",
+  "scripts": {
+    "build": "slib build .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "www.skylarkjs.org",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skylark-graphics/skylark-graphics-image.git"
+  },
+  "keywords": [
+    "skylark",
+    "skylarkjs",
+    "javacript",
+    "library",
+    "utility",
+    "coded",
+    "html5"
+  ],
+  "author": "Hudaokeji Co.,Ltd",
+  "license": "MIT",
+  "bugs": "https://github.com/skylarkjs/skylark/issues",
+  "dependencies": {
+    "skylark-io-streams": "git+https://github.com/skylark-data/skylark-data-streams.git",
+    "skylark-langx-objects": "git+https://github.com/skylark-langx/skylark-langx-objects.git",
+    "skylark-langx-binary": "git+https://github.com/skylark-langx/skylark-langx-binary.git",
+    "skylark-langx-exceptions": "git+https://github.com/skylark-langx/skylark-langx-exceptions.git",
+    "skylark-langx-ns": "git+https://github.com/skylark-langx/skylark-langx-ns.git"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}

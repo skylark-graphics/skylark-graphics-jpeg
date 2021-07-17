@@ -26,10 +26,10 @@
   "bugs": "https://github.com/skylarkjs/skylark/issues",
   "dependencies": {
     "skylark-io-streams": "git+https://github.com/skylark-data/skylark-data-streams.git",
-    "skylark-langx-objects": "git+https://github.com/skylark-langx/skylark-langx-objects.git",
     "skylark-langx-binary": "git+https://github.com/skylark-langx/skylark-langx-binary.git",
     "skylark-langx-exceptions": "git+https://github.com/skylark-langx/skylark-langx-exceptions.git",
-    "skylark-langx-ns": "git+https://github.com/skylark-langx/skylark-langx-ns.git"
+    "skylark-langx-ns": "git+https://github.com/skylark-langx/skylark-langx-ns.git",
+    "skylark-langx-objects": "git+https://github.com/skylark-langx/skylark-langx-objects.git"
   },
   "engines": {
     "node": ">=0.8.0"

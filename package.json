@@ -1,7 +1,7 @@
 {
-  "name": "skylark-graphics-image",
+  "name": "skylark-graphics-jpeg",
   "version": "0.9.0",
-  "description": "The skylark imagex utility library",
+  "description": "The skylark jpegx utility library",
   "main": "-",
   "scripts": {
     "build": "slib build .",
@@ -10,7 +10,7 @@
   "homepage": "www.skylarkjs.org",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/skylark-graphics/skylark-graphics-image.git"
+    "url": "git+https://github.com/skylark-graphics/skylark-graphics-jpeg.git"
   },
   "keywords": [
     "skylark",

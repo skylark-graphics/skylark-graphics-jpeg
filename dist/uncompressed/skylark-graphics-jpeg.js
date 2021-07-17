@@ -1,5 +1,5 @@
 /**
- * skylark-graphics-image - The skylark imagex utility library
+ * skylark-graphics-jpeg - The skylark jpegx utility library
  * @author Hudaokeji Co.,Ltd
  * @version v0.9.0
  * @link www.skylarkjs.org
@@ -86,14 +86,14 @@
 
 })(function(define,require) {
 
-define('skylark-graphics-image/jpeg',[
+define('skylark-graphics-jpeg/jpeg',[
   "skylark-langx-ns"
 ],function(skylark){
   'use strict';
 
   return skylark.attach("graphics.jpeg");
 });
-define('skylark-graphics-image/jpeg-image',[
+define('skylark-graphics-jpeg/jpeg-image',[
     "skylark-langx-exceptions/base-exception",
     'skylark-langx-binary',
     "./jpeg"
@@ -1175,7 +1175,7 @@ define('skylark-graphics-image/jpeg-image',[
     return jpeg.JpegImage = JpegImage;
 
 });
-define('skylark-graphics-image/jpeg-stream',[
+define('skylark-graphics-jpeg/jpeg-stream',[
     'skylark-langx-objects/shadow',
     'skylark-io-streams/decode-stream',
     "./jpeg",
@@ -1262,15 +1262,15 @@ define('skylark-graphics-image/jpeg-stream',[
     return jpeg.JpegStream = JpegStream;
 
 });
-define('skylark-graphics-image/main',[
+define('skylark-graphics-jpeg/main',[
 	"./jpeg",
 	"./jpeg-image",
 	"./jpeg-stream"
 ],function(jpeg){
 	return jpeg;
 });
-define('skylark-graphics-image', ['skylark-graphics-image/main'], function (main) { return main; });
+define('skylark-graphics-jpeg', ['skylark-graphics-jpeg/main'], function (main) { return main; });
 
 
 },this);
-//# sourceMappingURL=sourcemaps/skylark-graphics-image.js.map
+//# sourceMappingURL=sourcemaps/skylark-graphics-jpeg.js.map

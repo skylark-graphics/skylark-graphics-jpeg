@@ -1,9 +1,10 @@
 define([
     'skylark-langx-objects/shadow',
     'skylark-io-streams/decode-stream',
+    "skylark-langx-logging",
     "./jpeg",
     './jpeg-image'
-], function (shadow,DecodeStream, jpeg,JpegImage) {
+], function (shadow,DecodeStream, sutil,jpeg,JpegImage) {
     'use strict';
 
     function JpegStream(stream, maybeLength, dict, params) {

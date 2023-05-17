@@ -1,8 +1,10 @@
 define([
     "skylark-langx-exceptions/base-exception",
     'skylark-langx-binary',
+    "skylark-langx-logging",
+    "skylark-langx-debugs",
     "./jpeg"
-], function (BaseException, binary,jpeg) {
+], function (BaseException, binary,sutil,debugs,jpeg) {
     'use strict';
     class JpegError extends BaseException {
         constructor(msg) {
@@ -1044,7 +1046,7 @@ define([
         },
         getData({width, height, forceRGB = false, isSourcePDF = false}) {
             if (typeof PDFJSDev === 'undefined' || PDFJSDev.test('!PRODUCTION || TESTING')) {
-                sutil.assert(isSourcePDF === true, 'JpegImage.getData: Unexpected "isSourcePDF" value for PDF files.');
+                debugs.assert(isSourcePDF === true, 'JpegImage.getData: Unexpected "isSourcePDF" value for PDF files.');
             }
             if (this.numComponents > 4) {
                 throw new JpegError('Unsupported color mode');
